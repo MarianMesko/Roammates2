@@ -18,7 +18,9 @@ export default function Home() {
       <Navbar />
       <main className="bg-white min-h-screen">
         <section className="text-center py-20 px-6 bg-[#F8FAFC]">
-          <img src="/logo.png" alt="Roammates Logo" className="mx-auto w-20 mb-6" />
+          <div className="flex justify-center mb-6">
+            <img src="/logo.png" alt="Roammates Logo" className="w-16 h-16 object-contain" />
+          </div>
           <h1 className="text-5xl font-bold text-[#026DFE] mb-4">Group Travel, Perfectly Coordinated</h1>
           <p className="text-lg text-gray-600 max-w-xl mx-auto mb-8">
             Plan, vote, chat, and share memories in one place. Roammates is your all-in-one group trip assistant.
